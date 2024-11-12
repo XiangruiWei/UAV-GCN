@@ -1,8 +1,8 @@
 # feeder
 feeder: feeders.feeder.Feeder
 test_feeder_args:
-  data_path: ./data/test_joint.npy
-  label_path: ./data/test_label.pkl
+  data_path: ../data/test_joint.npy
+  label_path: ../data/test_label.pkl
   debug: False
   window_size: -1
   p_interval: [ 0.95 ]
