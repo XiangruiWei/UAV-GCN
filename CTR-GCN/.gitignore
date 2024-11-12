@@ -1,0 +1,7 @@
+*.log
+*.png
+work_dir/
+mytest.py
+check_wrong_sub.sh
+test_pca.sh
+move_file.sh
