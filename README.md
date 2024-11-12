@@ -2,7 +2,7 @@
 
 This repository implements the method developed by our team **骼固鼎芯** for the [2024 Sixth Global Campus Artificial Intelligence Algorithm Elite Competition - Drone-Based Human Activity Recognition](https://www.saikr.com/vse/50186) --- **Final phase**.
 
-In this repository, we utilize CTRGCN, BlockGCN, CDGCN, these three GCN models to recogonize actions according to skeletons. 
+In this repository, we utilize CTRGCN, BlockGCN, CDGCN, InfoGCN, these four GCN-based models to recognize actions according to skeletons. 
 
 ## Data Preparation & Procession
 
