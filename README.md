@@ -32,7 +32,7 @@ Our records about training and testing models are saved in the ``./<model_name>/
 
 ## Optimize Alpha Parameters
 
-In the ``weights`` directory, we demonstrate the method to find the optimal alpha parameters for score fusion. Please check it ! 
+In the ``weights`` directory, we demonstrate the method to find the optimal alpha parameters for score fusion.
 
 ## Score Fusion
 
