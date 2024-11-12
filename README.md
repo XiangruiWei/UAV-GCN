@@ -18,14 +18,13 @@ You can download the npy format data and processing methods from the competition
 
 ## Training & Testing
 
-The details about training these models are demonstrated in the model folder. You can use following commands to check details:
+The details about training these models are demonstrated in the model folder. You can use following commands to turn to the corresponding model and check details:
 ```shell
 $ cd CTR-GCN
 $ cd BlockGCN
 $ cd CD-GCN
+$ cd InfoGCN
 ```
-
-
 
 Our records about training and testing models are saved in the ``./<model_name>/work_dir`` directories. Due to the space limitation, we upload our ``work_dir`` in the Google Drive
 
