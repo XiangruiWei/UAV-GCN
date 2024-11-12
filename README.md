@@ -20,7 +20,7 @@ You can download the npy format data and processing methods from the competition
 
 ## Training & Testing
 
-The details about training these models are demonstrated in the model folder. You can use following commands to turn to the corresponding model and check details:
+The details about training these models are demonstrated in the corresponding model folder. You can use following commands to turn to the corresponding model and check details:
 ```shell
 $ cd CTR-GCN
 $ cd BlockGCN
@@ -53,7 +53,9 @@ https://drive.google.com/file/d/1EEOFR_JpSjCZw_2wKhjgIkiOG19sPACd/view?usp=drive
 
 ## Acknowledgements
 
-This repository is based on the work from [MS-CTR-GCN](https://github.com/CarefreeSun/MS-CTR-GCN) and [ICMEW2024-Track10](https://github.com/liujf69/ICMEW2024-Track10). 
+This repository is based on the work from [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN), [BlockGCN](https://github.com/ZhouYuxuanYX/BlockGCN), [CD-GCN](https://github.com/sakura1040576710/CD-GCN), [InfoGCN](https://github.com/stnoah1/infogcn).
+
+We also learn the training and alpha searching method from [MS-CTR-GCN](https://github.com/CarefreeSun/MS-CTR-GCN), [ICMEW2024-Track10](https://github.com/liujf69/ICMEW2024-Track10) and [UAV-SAR](https://github.com/happylinze/UAV-SAR). 
 
 We express our gratitude to the original authors for their contributions!
 
