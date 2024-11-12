@@ -26,10 +26,7 @@ Testing logs will likewise be saved in the `./work_dir` directory.
 
 ## Logs
 
-To save space, we upload our ``work_dir``, ``weights`` and ``scores`` directories in the Google Drive.
+To save space, we upload our ``work_dir``  directory in the [Google Drive](https://drive.google.com/file/d/1kOp1rP-w5lSjIP0SGOr0kPcHLvQClG1s/view?usp=drive_link).
 
-https://drive.google.com/file/d/1EEOFR_JpSjCZw_2wKhjgIkiOG19sPACd/view?usp=drive_link
 
-## Language Options
 
-[Switch to 中文版](README.cn.md)
