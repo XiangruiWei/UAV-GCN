@@ -30,7 +30,7 @@ $ cd InfoGCN
 
 Our records about training and testing models are saved in the ``./<model_name>/work_dir`` directories. Due to the space limitation, we upload our ``work_dir`` in the Google Drive
 
-## Scores Fusion
+## Score Fusion
 
 We offer methods to find optimal alpha parameters and to ensemble scores:
 
