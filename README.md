@@ -39,17 +39,9 @@ $ sh ensemble_find_best.sh
 $ python ensemble_score.py
 ```
 
-## Our Results
+## Logs
 
-The best weights and scores (in pkl format) for all streams are saved in the `./weights` directory. 
-
-Scores for the test_B dataset are stored in both npy and pkl formats in the `./scores` directory. Our final result, `fused_score.npy`, is submitted for ranking.
-
-## Where to get details
-
-To save space, we upload our ``work_dir``, ``weights`` and ``scores`` directories in the Google Drive.
-
-https://drive.google.com/file/d/1EEOFR_JpSjCZw_2wKhjgIkiOG19sPACd/view?usp=drive_link
+To save space, we upload our ``work_dir``  directory in the [Google Drive](https://drive.google.com/file/d/1kOp1rP-w5lSjIP0SGOr0kPcHLvQClG1s/view?usp=drive_link).
 
 ## Acknowledgements
 
