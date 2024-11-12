@@ -1,0 +1,1 @@
+python main.py --config ./config/uav_csv1/test_FR_Head_2.yaml --work-dir ./work_dir/test_Head_2 --phase test --save_score True --weights ./weights/infogcn_fr_head_2/runs-103-13390.pt

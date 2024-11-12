@@ -1,0 +1,1 @@
+python main.py --config ./config/uav_csv1/32frame_1.yaml --work-dir ./work_dir/infogcn_FR_Head_1_Frames_32

@@ -1,0 +1,1 @@
+python main.py --config ./config/uav_csv1/128frame_2.yaml --work-dir ./work_dir/infogcn_FR_Head_2_Frames_128
