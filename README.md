@@ -14,9 +14,9 @@ You can download the npy format data and processing methods from the competition
 
 
 
-!!! CTRGCN，BlockGCN and CDGCN are trained and tested by the **npy** format data; 
+**!!!** CTRGCN，BlockGCN and CDGCN are trained and tested by the **npy** format data; 
 
-​    InfoGCN is trained and tested by the **npz** format data
+**!!!** InfoGCN is trained and tested by the **npz** format data.
 
 ## Training & Testing
 
