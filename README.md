@@ -30,12 +30,16 @@ $ cd InfoGCN
 
 Our records about training and testing models are saved in the ``./<model_name>/work_dir`` directories. Due to the space limitation, we upload our ``work_dir`` in the Google Drive
 
+## Optimize Alpha Parameters
+
+In the ``weights`` directory, we demonstrate the method to find the optimal alpha parameters for score fusion. Please check it ! 
+
 ## Score Fusion
 
-We offer methods to find optimal alpha parameters and to ensemble scores:
+We offer methods to ensemble scores:
 
 ```bash
-$ sh ensemble_find_best.sh 
+$ cd scores
 $ python ensemble_score.py
 ```
 
