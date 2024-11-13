@@ -1,42 +1,47 @@
 # UAV-GCN
 
-This repository implements the method developed by our team **骼固鼎芯** for the [2024 Sixth Global Campus Artificial Intelligence Algorithm Elite Competition - Drone-Based Human Activity Recognition](https://www.saikr.com/vse/50186) --- **Final phase**.
+This repository implements our team **骼固鼎芯**'s solution for the [2024 Sixth Global Campus Artificial Intelligence Algorithm Elite Competition - Drone-Based Human Activity Recognition](https://www.saikr.com/vse/50186) **Final Phase**.
 
-In this repository, we utilize CTRGCN, BlockGCN, CDGCN, InfoGCN, these four GCN-based models to recognize actions according to skeletons. 
+We integrate four state-of-the-art GCN-based models - CTRGCN, BlockGCN, CDGCN, and InfoGCN - for skeleton-based action recognition.
 
-## Data Preparation & Procession
+## Data Preparation & Processing
 
-You can download the npy format data and processing methods from the competition website [2024 Sixth Global Campus Artificial Intelligence Algorithm Elite Competition - Drone-Based Human Activity Recognition](https://www.saikr.com/vse/50186).
+The competition dataset (in .npy format) and processing methods can be downloaded from the official competition website [2024 Sixth Global Campus Artificial Intelligence Algorithm Elite Competition - Drone-Based Human Activity Recognition](https://www.saikr.com/vse/50186).
 
+To process the training data into .npz format, execute the following scripts sequentially:
 
+```bash
+python get_raw_skes_data.py
+python get_raw_denoise_data.py
+python seq_transformation.py
+```
 
+For processing the test set, simply modify the data paths in these scripts accordingly.
 
-
-
-
-**!!!** CTRGCN，BlockGCN and CDGCN are trained and tested by the **npy** format data; 
-
-**!!!** InfoGCN is trained and tested by the **npz** format data.
+**Important Notes:**
+- CTRGCN, BlockGCN and CDGCN use the **npy** format data
+- InfoGCN requires the **npz** format data
 
 ## Training & Testing
 
-The details about training these models are demonstrated in the corresponding model folder. You can use following commands to turn to the corresponding model and check details:
-```shell
+Detailed training instructions for each model are provided in their respective folders. Navigate to specific model directories using:
+
+```bash
 $ cd CTR-GCN
 $ cd BlockGCN
 $ cd CD-GCN
 $ cd InfoGCN
 ```
 
-Our records about training and testing models are saved in the ``./<model_name>/work_dir`` directories. Due to the space limitation, we upload our ``work_dir`` in the Google Drive
+Training and testing logs are stored in `./<model_name>/work_dir` directories. Due to size constraints, we have uploaded our complete `work_dir` to Google Drive.
 
-## Optimize Alpha Parameters
+## Alpha Parameter Optimization
 
-In the ``weights`` directory, we demonstrate the method to find the optimal alpha parameters for score fusion.
+The `weights` directory contains our methodology for determining optimal alpha parameters for score fusion.
 
 ## Score Fusion
 
-We offer methods to ensemble scores:
+To perform score ensemble:
 
 ```bash
 $ cd scores
@@ -45,16 +50,24 @@ $ python ensemble_score.py
 
 ## Logs
 
-To save space, we upload our ``work_dir``  directory in the [Google Drive](https://drive.google.com/file/d/1kOp1rP-w5lSjIP0SGOr0kPcHLvQClG1s/view?usp=drive_link).
+Our complete `work_dir` directory is available on [Google Drive](https://drive.google.com/file/d/1kOp1rP-w5lSjIP0SGOr0kPcHLvQClG1s/view?usp=drive_link) due to size limitations.
 
 ## Acknowledgements
 
-This repository is based on the work from [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN), [BlockGCN](https://github.com/ZhouYuxuanYX/BlockGCN), [CD-GCN](https://github.com/sakura1040576710/CD-GCN), [InfoGCN](https://github.com/stnoah1/infogcn).
+This work builds upon several excellent repositories:
+- [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN)
+- [BlockGCN](https://github.com/ZhouYuxuanYX/BlockGCN)
+- [CD-GCN](https://github.com/sakura1040576710/CD-GCN)
+- [InfoGCN](https://github.com/stnoah1/infogcn)
 
-We also learn the training and alpha searching method from [MS-CTR-GCN](https://github.com/CarefreeSun/MS-CTR-GCN), [ICMEW2024-Track10](https://github.com/liujf69/ICMEW2024-Track10) and [UAV-SAR](https://github.com/happylinze/UAV-SAR). 
+We also drew inspiration from:
+- [MS-CTR-GCN](https://github.com/CarefreeSun/MS-CTR-GCN)
+- [ICMEW2024-Track10](https://github.com/liujf69/ICMEW2024-Track10)
+- [UAV-SAR](https://github.com/happylinze/UAV-SAR)
 
-We express our gratitude to the original authors for their contributions!
+We extend our sincere gratitude to all the original authors for their valuable contributions!
 
 ## Language Options
 
-[Switch to 中文版](README.cn.md)
+[切换至中文版](README.cn.md)
+
